@@ -10,8 +10,7 @@ SOURCES += \
         mytests.cpp \
         ../src/bishop.cpp \
         ../src/chessboard.cpp \
-        ../src/chessfield.cpp \
-        ../src/engine.cpp \
+        ../src/chessfield.cpp \        
         ../src/king.cpp \
         ../src/knight.cpp \
         ../src/pawn.cpp \
@@ -22,8 +21,7 @@ SOURCES += \
 HEADERS += \
     bishop.h \
     chessboard.h \
-    chessfield.h \
-    engine.h \
+    chessfield.h \    
     king.h \
     knight.h \
     mainwindow.h \

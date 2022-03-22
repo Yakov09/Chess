@@ -1,5 +1,5 @@
+*.[ao]
+bin/
 build/
 Makefile
-bin/
-.qmake*
-*.[oa]
+.qmake.stash

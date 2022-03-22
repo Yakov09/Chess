@@ -23,8 +23,9 @@ void Pawn::possiableMoves(Chessboard *board){
         if(board->getPieceFromField(nextField) == nullptr) posMoves[nextField] = 1;
     }
     if(((myHorizon == 1)&&(direction == 1)) || ((myHorizon == 6)&&(direction == -1))) {
-        nextField = myField->getNumber() + 16*direction;
-        if(board->getPieceFromField(nextField) == nullptr) posMoves[nextField] = 1;
+        nextField = myField->getNumber() + 8*direction;
+        int nextField2 = myField->getNumber() + 16*direction;
+        if((board->getPieceFromField(nextField2) == nullptr)&&(board->getPieceFromField(nextField) == nullptr)) posMoves[nextField2] = 1;
     }
     if(myVert > 0){
         nextField = myField->getNumber() + 8*direction - 1;
