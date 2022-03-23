@@ -31,8 +31,8 @@ HEADERS += \
     queen.h \
     rook.h
 
-DESTDIR=bin #Target file directory
-OBJECTS_DIR=build/test #Intermediate object files directory
-MOC_DIR=build/test #Intermediate moc files directory
-UI_DIR=build/test
+DESTDIR=../bin #Target file directory
+OBJECTS_DIR=../build/test #Intermediate object files directory
+MOC_DIR=../build/test #Intermediate moc files directory
+UI_DIR=../build/test
 

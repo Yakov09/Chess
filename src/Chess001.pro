@@ -1,4 +1,4 @@
-QT       += core gui testlib
+QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 QMAKE_EXTRA_TARGETS += clean *.o
@@ -42,7 +42,7 @@ FORMS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
-DESTDIR=bin #Target file directory
-OBJECTS_DIR=build/src #Intermediate object files directory
-MOC_DIR=build/src #Intermediate moc files directory
-UI_DIR=build/src
+DESTDIR=../bin #Target file directory
+OBJECTS_DIR=../build/src #Intermediate object files directory
+MOC_DIR=../build/src #Intermediate moc files directory
+UI_DIR=../build/src

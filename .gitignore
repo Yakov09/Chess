@@ -1,5 +1,4 @@
 *.[ao]
-bin/
 build/
 Makefile
 .qmake.stash

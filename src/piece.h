@@ -8,7 +8,8 @@ class Chessboard;
 class Piece
 {
 protected:
-    std::string path = "/home/yakov/Chess001/images";
+    //std::string path = "/home/yakov/Chess001/images";
+    std::string path = "../src/images";
     std::string whiteImageName = "";
     std::string blackImageName = "";
     bool color;                                                 // 0 - white, 1 - black
